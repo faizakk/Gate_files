@@ -1,0 +1,26 @@
+<?xml version = "1.0"?>
+<schema xmlns="http://www.w3.org/2000/10/XMLSchema">
+<!-- XSchema definition for COPD-->
+<element name= "Anatomical Location" >
+    <complexType>
+        <attribute name = "Category" use="optional">
+            <simpleType>
+             <restriction base= "Anatomical Location">
+                <enumeration value = "head"/>
+                <enumeration value = "sinus"/>
+                <enumeration value = "nose"/>
+                <enumeration value = "throat"/>
+                <enumeration value = "lymph nodes"/>
+                <enumeration value = "chest"/>
+                <enumeration value = "lungs"/>
+                <enumeration value = "muscle"/>
+                
+                <enumeration value = "lungs"/>
+                <enumeration value = "chest"/>
+                
+             </restriction>
+            </simpleType>
+            </attribute>
+    </complexType>
+</element>
+</schema>

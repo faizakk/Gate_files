@@ -1,0 +1,62 @@
+<?xml version = "1.0"?>
+<schema xmlns="http://www.w3.org/2000/10/XMLSchema">
+<!-- XSchema definition for Presenting Problem-->
+<element name= "Presenting Problem" >
+    <complexType>
+        <attribute name = "Category" use="optional">
+            <simpleType>
+            <restriction base= "Presenting Problem">
+                <enumeration value = "fever "/>
+                <enumeration value = "cough "/>
+                <enumeration value = "nose running "/>
+                <enumeration value = "flushed "/>
+                <enumeration value = "short of breath/can’t catch breath "/>
+                <enumeration value = "wheeze "/>
+                <enumeration value = "phlegm "/>
+                <enumeration value = "mucus "/>
+                <enumeration value = "headache "/>
+                <enumeration value = "congestion "/>
+                <enumeration value = "muscle ache "/>
+                <enumeration value = "feel sick"/>
+                <enumeration value = "feel weak "/>
+                <enumeration value = "feel dizzy "/>
+                <enumeration value = "sore throat "/>
+                <enumeration value = "purple lips"/>
+                <enumeration value = "flushed skin "/>
+                
+                <enumeration value = "depressed mood "/>
+                <enumeration value = "lack interest "/>
+                <enumeration value = "having difficulty functioning "/>
+                <enumeration value = "having difficulty working "/>
+                <enumeration value = "decreased appetite "/>
+                <enumeration value = "insomnia "/>
+                <enumeration value = "fatigue "/>
+                <enumeration value = "feel worthless "/>
+                <enumeration value = "feel guilty "/>
+                <enumeration value = "unable to concentrate "/>
+                <enumeration value = "desire to die "/>
+                
+                <enumeration value = "having difficulty focusing "/>
+                <enumeration value = "inattentive "/>
+                <enumeration value = "having difficulty at work/school "/>
+                <enumeration value = "impulsive "/>
+                <enumeration value = "restless "/>
+                <enumeration value = "distracted "/>
+                <enumeration value = "hyperactive "/>
+                <enumeration value = "emotionally unstable "/>
+                <enumeration value = "forgetful "/>
+                <enumeration value = "difficulty organizing "/>
+                <enumeration value = "difficulty planning "/>
+                <enumeration value = "difficulty completing tasks "/>
+                <enumeration value = "difficulty managing time "/>
+                <enumeration value = "unable to sit still "/>
+                
+
+
+                
+        </restriction>
+            </simpleType>
+            </attribute>
+    </complexType>
+</element>
+</schema>
